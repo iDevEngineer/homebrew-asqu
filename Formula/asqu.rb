@@ -10,18 +10,18 @@ class Asqu < Formula
 
   on_macos do
     on_arm do
-      url "https://asqu.dev/download/v0.1.0/asqu-aarch64-apple-darwin.tar.gz"
+      url "https://dl.asqu.dev/v0.1.0/asqu-aarch64-apple-darwin.tar.gz"
       sha256 "569ba8c8ac5fe2b66e4dd23ef4969dba5927560e52381aeaa88f9cec5ee4d543"
     end
     on_intel do
-      url "https://asqu.dev/download/v0.1.0/asqu-x86_64-apple-darwin.tar.gz"
+      url "https://dl.asqu.dev/v0.1.0/asqu-x86_64-apple-darwin.tar.gz"
       sha256 "ce2788a63be26e3445430dcf74e04606b1421d79102e5373b3d8a68530c6b60b"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://asqu.dev/download/v0.1.0/asqu-x86_64-unknown-linux-musl.tar.gz"
+      url "https://dl.asqu.dev/v0.1.0/asqu-x86_64-unknown-linux-musl.tar.gz"
       sha256 "d380e7b675c45f93dcdb9c4ddb4441a1568c4c01bc62092e6a98e482423b2298"
     end
   end
